@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Profile Page</title>
+		<link href="index.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body class="loggedin">
+		<nav class="navtop">
+			<div>
+				<h1>XYZ HR System</h1>
+				<a href="home.php"><i class="fas fa-home"></i>Home</a>
+				<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
+			</div>
+		</nav>
+    <form action="register.php" method="POST" autocomplete="off">
+    <div class="container">
+    <h2>Register Employees</h2>
+    <p>Fill the user details in the form below are below:</p>
+    <hr>
+
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" placeholder="Employee FirstName" name="fname" id="fname" required>
+
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" placeholder="Employee LastName" name="lname" id="lname" required>
+
+    <label for="EmpID"><b>Employee ID</b></label>
+    <input type="text" placeholder="Employee ID" name="EmpID" id="EmpID" required>
+
+    <!--<label for="DOB"><b>Date of Birth</b></label>
+    <input type="date" placeholder="Date of Birth" name="DOB" id="DOB" required> <br>
+
+    <label for="gender"><b>Gender</b></label> <br>
+    <form>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    </form> -->
+    
+    
+    <label for="PNumber"><b>Phone Number</b></label>
+    <input type="Text" placeholder="Phone number" name="PNumber" id="PNumber" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Email" name="email" id="email" required>
+    <hr>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+
+  </div>
+</form>
+
+		
+        
+	</body>
+</html>
